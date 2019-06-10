@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400i&display=swap");
+nav {
+  background-image: linear-gradient(to right, #FEFEFE, #E6E6E6, #CFCFCF) !important;
+  height: 4rem;
+  padding-right: .5rem !important;
+  padding-left: .5rem !important; }
+  @media only screen and (min-width: 576px) {
+    nav {
+      padding-right: 1rem !important;
+      padding-left: 1rem !important; } }
+  @media only screen and (min-width: 1200px) {
+    nav {
+      height: 5rem; } }
+  nav .navbar-brand {
+    margin-right: 0; }
+    nav .navbar-brand img {
+      max-width: 13rem; }
+      @media only screen and (min-width: 1200px) {
+        nav .navbar-brand img {
+          max-width: 17rem; } }
+  nav #navbarSupportedContent {
+    height: 100%; }
+    nav #navbarSupportedContent ul {
+      height: 100%; }
+      @media only screen and (max-width: 1199px) {
+        nav #navbarSupportedContent ul {
+          position: absolute;
+          bottom: -14.1rem;
+          right: 0;
+          width: 12rem;
+          background: #CFCFCF;
+          height: 14rem;
+          padding: 1rem 0;
+          background-image: linear-gradient(to right, #E6E6E6, #CFCFCF) !important;
+          border-top-left-radius: .5rem;
+          border-bottom-left-radius: .5rem; } }
+      @media only screen and (min-width: 1200px) {
+        nav #navbarSupportedContent ul {
+          position: relative;
+          top: .5rem; } }
+      @media only screen and (max-width: 1199px) {
+        nav #navbarSupportedContent ul li {
+          padding-left: .5rem; } }
+      @media only screen and (min-width: 1200px) {
+        nav #navbarSupportedContent ul li:hover {
+          border-bottom: 4px solid #f5c52c; } }
+      nav #navbarSupportedContent ul li a {
+        color: black !important;
+        font-weight: 600; }
+        @media only screen and (max-width: 1199px) {
+          nav #navbarSupportedContent ul li a {
+            padding-left: 1rem; } }
+        @media only screen and (min-width: 1200px) {
+          nav #navbarSupportedContent ul li a {
+            font-size: 1.05rem; } }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #f5c52c; }
+
+@keyframes proizvodnja {
+  from {
+    right: 100rem; }
+  to {
+    right: 0; } }
+@keyframes detekcija {
+  from {
+    right: 100rem; }
+  to {
+    right: 0; } }
+@keyframes promet {
+  from {
+    right: 100rem; }
+  to {
+    right: 0; } }
+@media only screen and (min-width: 576px) {
+  @keyframes proizvodnja {
+    from {
+      right: 100rem;
+      top: 1rem; }
+    to {
+      right: 4rem;
+      top: 1rem; } }
+  @keyframes detekcija {
+    from {
+      top: 4rem;
+      right: 100rem; }
+    to {
+      top: 4rem;
+      right: 4rem; } }
+  @keyframes promet {
+    from {
+      top: 7rem;
+      right: 100rem; }
+    to {
+      top: 7rem;
+      right: 4rem; } } }
+.jumbotron {
+  background-size: cover;
+  margin-bottom: 2rem; }
+  @media only screen and (min-width: 1200px) {
+    .jumbotron {
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      border-radius: 0;
+      background-position: center;
+      margin-bottom: 4rem; } }
+  .jumbotron:first-of-type {
+    height: 22.3rem;
+    border-bottom: 1rem solid #f5c52c; }
+    @media only screen and (min-width: 768px) {
+      .jumbotron:first-of-type {
+        background-position: 0 -4rem;
+        height: 30rem; } }
+    @media only screen and (min-width: 1200px) {
+      .jumbotron:first-of-type {
+        height: 100vh; } }
+    .jumbotron:first-of-type ul {
+      position: relative;
+      top: 25%;
+      left: 10%;
+      text-align: right;
+      border-radius: 1rem;
+      background: rgba(255, 219, 58, 0.431);
+      font-size: 1.3rem;
+      height: 10rem;
+      width: 14rem;
+      color: #1b1b1b;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold; }
+      @media only screen and (min-width: 375px) {
+        .jumbotron:first-of-type ul {
+          left: 40%; } }
+      @media only screen and (min-width: 576px) {
+        .jumbotron:first-of-type ul {
+          left: 50%;
+          width: 16rem; } }
+      @media only screen and (min-width: 768px) {
+        .jumbotron:first-of-type ul {
+          font-size: 1.5rem;
+          width: 18rem;
+          height: 10rem;
+          left: 50%; } }
+      @media only screen and (min-width: 1200px) {
+        .jumbotron:first-of-type ul {
+          font-weight: normal;
+          font-size: 3rem;
+          width: 28rem;
+          height: 20rem;
+          left: 60%; } }
+      .jumbotron:first-of-type ul li {
+        list-style-type: none;
+        position: absolute;
+        width: max-content; }
+        .jumbotron:first-of-type ul li:nth-of-type(1) {
+          animation-name: proizvodnja;
+          animation-duration: 1.5s;
+          animation-fill-mode: forwards;
+          animation-delay: .5s;
+          right: 100rem;
+          top: 1rem;
+          margin-right: 3rem; }
+          @media only screen and (min-width: 576px) {
+            .jumbotron:first-of-type ul li:nth-of-type(1) {
+              margin-right: 0; } }
+          @media only screen and (min-width: 1200px) {
+            .jumbotron:first-of-type ul li:nth-of-type(1) {
+              margin-right: 0; } }
+        .jumbotron:first-of-type ul li:nth-of-type(2) {
+          animation-name: detekcija;
+          animation-duration: 1.5s;
+          animation-fill-mode: forwards;
+          animation-delay: 1.5s;
+          right: 100rem;
+          top: 4rem;
+          margin-right: 3rem; }
+          @media only screen and (min-width: 576px) {
+            .jumbotron:first-of-type ul li:nth-of-type(2) {
+              margin-right: 0; } }
+          @media only screen and (min-width: 1200px) {
+            .jumbotron:first-of-type ul li:nth-of-type(2) {
+              margin: 3rem 0; } }
+        .jumbotron:first-of-type ul li:nth-of-type(3) {
+          animation-name: promet;
+          animation-duration: 1.5s;
+          animation-fill-mode: forwards;
+          right: 100rem;
+          animation-delay: 2.5s;
+          top: 7rem;
+          margin-right: 3rem; }
+          @media only screen and (min-width: 576px) {
+            .jumbotron:first-of-type ul li:nth-of-type(3) {
+              margin-right: 0; } }
+          @media only screen and (min-width: 1200px) {
+            .jumbotron:first-of-type ul li:nth-of-type(3) {
+              margin: 6rem 0; } }
+  .jumbotron:nth-of-type(2) {
+    border-bottom: .5rem solid #f5c52c; }
+    .jumbotron:nth-of-type(2) article {
+      max-width: 40rem;
+      background: rgba(0, 0, 0, 0.815);
+      color: #ffe7b9;
+      padding: 1rem;
+      margin: 0 auto; }
+      @media only screen and (min-width: 1200px) {
+        .jumbotron:nth-of-type(2) article {
+          padding: 10rem;
+          max-width: 60rem; } }
+      .jumbotron:nth-of-type(2) article h2 {
+        text-align: center;
+        background: #f5c52c;
+        color: black;
+        border-radius: .5rem; }
+      .jumbotron:nth-of-type(2) article button {
+        padding: .4rem;
+        display: block;
+        margin: 2rem auto;
+        background: #f5c52c; }
+        .jumbotron:nth-of-type(2) article button:hover {
+          opacity: .9; }
+      .jumbotron:nth-of-type(2) article:first-of-type {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        padding-bottom: 1rem; }
+        @media only screen and (min-width: 1200px) {
+          .jumbotron:nth-of-type(2) article:first-of-type {
+            border-top-left-radius: 3rem;
+            border-top-right-radius: 3rem; } }
+      .jumbotron:nth-of-type(2) article:last-of-type {
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem; }
+        @media only screen and (min-width: 1200px) {
+          .jumbotron:nth-of-type(2) article:last-of-type {
+            padding-top: 9rem;
+            border-bottom-left-radius: 3rem;
+            border-bottom-right-radius: 3rem; } }
+
+form {
+  background: #e0e0e0;
+  padding: 3rem 0; }
+  @media only screen and (min-width: 1200px) {
+    form {
+      padding: 7rem 0;
+      padding-bottom: 2rem; } }
+  form .primedbe-zalbe {
+    max-width: 20rem;
+    margin: 0 auto;
+    background: #1a1a1a;
+    color: #ffe7b9;
+    padding: 1rem;
+    border-radius: 1rem; }
+    @media only screen and (min-width: 768px) {
+      form .primedbe-zalbe {
+        padding: 3rem;
+        max-width: 30rem; } }
+    @media only screen and (min-width: 1200px) {
+      form .primedbe-zalbe {
+        border-radius: 3rem;
+        max-width: 40rem; } }
+    @media only screen and (min-width: 768px) {
+      form .primedbe-zalbe > * {
+        margin: 1rem; } }
+    @media only screen and (min-width: 1200px) {
+      form .primedbe-zalbe > * {
+        margin: 2rem; } }
+    form .primedbe-zalbe h2 {
+      text-align: center;
+      background: #f5c52c;
+      border-radius: .5rem;
+      padding: 1rem;
+      color: black; }
+    @media only screen and (min-width: 1200px) {
+      form .primedbe-zalbe .form-group > * {
+        margin: 1rem 0; } }
+    form .primedbe-zalbe .form-group input {
+      background: #1a1a1a;
+      color: #ffe7b9;
+      border-bottom: .1rem solid #f5c52c;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 1.25rem; }
+      @media only screen and (min-width: 768px) {
+        form .primedbe-zalbe .form-group input {
+          font-size: 1.3rem; } }
+      form .primedbe-zalbe .form-group input:focus {
+        box-shadow: .1rem 0 .1rem #f5c52c; }
+    form .primedbe-zalbe .form-group textarea {
+      background: #1a1a1a;
+      color: #ffe7b9;
+      font-size: 1.25rem;
+      border-bottom: .1rem solid #f5c52c;
+      border-top: none;
+      border-left: none;
+      border-right: none; }
+      @media only screen and (min-width: 768px) {
+        form .primedbe-zalbe .form-group textarea {
+          font-size: 1.3rem; } }
+      form .primedbe-zalbe .form-group textarea:focus {
+        box-shadow: .1rem 0 .1rem #f5c52c; }
+    form .primedbe-zalbe .form-group label {
+      font-size: 1.25rem; }
+      @media only screen and (min-width: 768px) {
+        form .primedbe-zalbe .form-group label {
+          font-size: 1.3rem; } }
+    form .primedbe-zalbe .buttons {
+      display: flex;
+      margin-top: 2rem; }
+      @media only screen and (min-width: 768px) {
+        form .primedbe-zalbe .buttons {
+          margin-top: 4rem; } }
+      form .primedbe-zalbe .buttons .posalji,
+      form .primedbe-zalbe .buttons .ponisti {
+        background: #f5c52c;
+        border-radius: .5rem;
+        padding: .3rem 1rem;
+        color: black;
+        font-size: 1.25rem;
+        flex: 1;
+        box-shadow: none;
+        outline: none; }
+        @media only screen and (min-width: 768px) {
+          form .primedbe-zalbe .buttons .posalji,
+          form .primedbe-zalbe .buttons .ponisti {
+            font-size: 1.3rem;
+            padding: .5rem 1rem; } }
+      form .primedbe-zalbe .buttons .posalji {
+        margin-right: 2rem; }
+        @media only screen and (min-width: 768px) {
+          form .primedbe-zalbe .buttons .posalji {
+            margin-right: 4rem; } }
+
+.reference {
+  background: #f5c52c;
+  padding: 3rem 0;
+  border-top: 0.1rem solid #313131; }
+  .reference #gallery1,
+  .reference #gallery2,
+  .reference #gallery3 {
+    max-width: 65rem;
+    margin: 0 auto; }
+    .reference #gallery1 .carousel-inner,
+    .reference #gallery2 .carousel-inner,
+    .reference #gallery3 .carousel-inner {
+      width: 12rem;
+      margin: 0 auto; }
+      @media only screen and (min-width: 576px) {
+        .reference #gallery1 .carousel-inner,
+        .reference #gallery2 .carousel-inner,
+        .reference #gallery3 .carousel-inner {
+          width: 25rem; } }
+      @media only screen and (min-width: 768px) {
+        .reference #gallery1 .carousel-inner,
+        .reference #gallery2 .carousel-inner,
+        .reference #gallery3 .carousel-inner {
+          width: 45rem; } }
+      .reference #gallery1 .carousel-inner .carousel-item img,
+      .reference #gallery2 .carousel-inner .carousel-item img,
+      .reference #gallery3 .carousel-inner .carousel-item img {
+        width: 12rem;
+        height: 5rem; }
+
+#gallery3 > a.carousel-control-prev > span.carousel-control-prev-icon,
+#gallery3 > a.carousel-control-next > span.carousel-control-next-icon {
+  width: 2rem;
+  height: 2rem; }
+
+footer {
+  background: #1a1a1a;
+  color: #E6E6E6;
+  padding-top: 4rem;
+  padding-bottom: 2rem; }
+  @media only screen and (min-width: 1200px) {
+    footer {
+      padding: 4rem 2rem 2rem 2rem !important; } }
+  footer .kontakt h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2rem; }
+  footer .kontakt h3 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem; }
+    @media only screen and (min-width: 768px) {
+      footer .kontakt h3 {
+        font-size: 1.45rem; } }
+  footer .kontakt ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 0; }
+    footer .kontakt ul li {
+      font-size: 1.25rem;
+      padding-top: .5rem; }
+      @media only screen and (min-width: 768px) {
+        footer .kontakt ul li {
+          font-size: 1.3rem; } }
+  footer .kontakt a {
+    text-decoration: none;
+    color: #E6E6E6;
+    font-size: 1.25rem;
+    display: block;
+    padding-bottom: 1rem; }
+    footer .kontakt a:hover {
+      color: white; }
+    @media only screen and (min-width: 768px) {
+      footer .kontakt a {
+        font-size: 1.3rem; } }
+  footer .lokacija {
+    display: flex;
+    align-items: center; }
+    footer .lokacija a img {
+      border-radius: 1rem; }
+      @media only screen and (min-width: 768px) {
+        footer .lokacija a img {
+          border-radius: 1rem; } }
+      @media only screen and (min-width: 992px) {
+        footer .lokacija a img {
+          border-radius: 3rem; } }
+  footer .copyright {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 3rem; }
+    @media only screen and (min-width: 768px) {
+      footer .copyright {
+        font-size: 1.25rem; } }
+    @media only screen and (min-width: 1200px) {
+      footer .copyright {
+        margin-top: 6rem; } }
+
+body {
+  background-image: linear-gradient(to right, #FEFEFE, #E6E6E6, #CFCFCF); }
+
+p {
+  font-size: 1.25rem; }
+  @media only screen and (min-width: 768px) {
+    p {
+      font-size: 1.3rem; } }
+
+h2 {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  padding: .5rem; }
+  @media only screen and (min-width: 768px) {
+    h2 {
+      font-size: 1.7rem; } }
+  @media only screen and (min-width: 992px) {
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 4rem; } }
+
+[alt="misija i vizija"] {
+  margin: 0 auto;
+  max-width: 30rem;
+  width: 100%;
+  display: block; }
+  @media only screen and (min-width: 1200px) {
+    [alt="misija i vizija"] {
+      max-width: 40rem; } }
+
+.logo_misija_vizija {
+  margin-bottom: 2rem; }
+  @media only screen and (min-width: 992px) {
+    .logo_misija_vizija {
+      padding-bottom: 4rem; } }
+
+#referenceXS,
+#referenceSM,
+#referenceMD {
+  background: #e0e0e0; }
+
+/*# sourceMappingURL=index.css.map */
