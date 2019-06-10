@@ -1,17 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400i&display=swap");
-
-.jumbotron:first-of-type ul li:nth-of-type(1) {
-  top: 1rem !important;
-}
-
-.jumbotron:first-of-type ul li:nth-of-type(2) {
-  top: 4rem !important;
-}
-
-.jumbotron:first-of-type ul li:nth-of-type(3) {
-  top: 7rem !important;
-}
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:400i&display=swap");z
 nav {
   background-image: linear-gradient(to right, #FEFEFE, #E6E6E6, #CFCFCF) !important;
   height: 4rem;
@@ -71,43 +58,7 @@ nav {
   color: #fff;
   background-color: #f5c52c; }
 
-@keyframes proizvodnja {
-  from {
-    right: 100rem; }
-  to {
-    right: 0; } }
-@keyframes detekcija {
-  from {
-    right: 100rem; }
-  to {
-    right: 0; } }
-@keyframes promet {
-  from {
-    right: 100rem; }
-  to {
-    right: 0; } }
-@media only screen and (min-width: 576px) {
-  @keyframes proizvodnja {
-    from {
-      right: 100rem;
-      top: 1rem; }
-    to {
-      right: 4rem;
-      top: 1rem; } }
-  @keyframes detekcija {
-    from {
-      top: 4rem;
-      right: 100rem; }
-    to {
-      top: 4rem;
-      right: 4rem; } }
-  @keyframes promet {
-    from {
-      top: 7rem;
-      right: 100rem; }
-    to {
-      top: 7rem;
-      right: 4rem; } } }
+
 .jumbotron {
   background-size: cover;
   margin-bottom: 2rem; }
@@ -160,53 +111,13 @@ nav {
           font-size: 3rem;
           width: 28rem;
           height: 20rem;
-          left: 60%; } }
+          left: 60%; 
+        padding-top: 1rem;
+      padding-right: 2.5rem;} }
       .jumbotron:first-of-type ul li {
         list-style-type: none;
-        position: absolute;
-        width: max-content; }
-        .jumbotron:first-of-type ul li:nth-of-type(1) {
-          animation-name: proizvodnja;
-          animation-duration: 1.5s;
-          animation-fill-mode: forwards;
-          animation-delay: .5s;
-          right: 100rem;
-          top: 1rem;
-          margin-right: 3rem; }
-          @media only screen and (min-width: 576px) {
-            .jumbotron:first-of-type ul li:nth-of-type(1) {
-              margin-right: 0; } }
-          @media only screen and (min-width: 1200px) {
-            .jumbotron:first-of-type ul li:nth-of-type(1) {
-              margin-right: 0; } }
-        .jumbotron:first-of-type ul li:nth-of-type(2) {
-          animation-name: detekcija;
-          animation-duration: 1.5s;
-          animation-fill-mode: forwards;
-          animation-delay: 1.5s;
-          right: 100rem;
-          top: 4rem;
-          margin-right: 3rem; }
-          @media only screen and (min-width: 576px) {
-            .jumbotron:first-of-type ul li:nth-of-type(2) {
-              margin-right: 0; } }
-          @media only screen and (min-width: 1200px) {
-            .jumbotron:first-of-type ul li:nth-of-type(2) {
-              margin: 3rem 0; } }
-        .jumbotron:first-of-type ul li:nth-of-type(3) {
-          animation-name: promet;
-          animation-duration: 1.5s;
-          animation-fill-mode: forwards;
-          right: 100rem;
-          animation-delay: 2.5s;
-          top: 7rem;
-          margin-right: 3rem; }
-          @media only screen and (min-width: 576px) {
-            .jumbotron:first-of-type ul li:nth-of-type(3) {
-              margin-right: 0; } }
-          @media only screen and (min-width: 1200px) {
-            .jumbotron:first-of-type ul li:nth-of-type(3) {
-              margin: 6rem 0; } }
+        margin: 1rem;
+      }
   .jumbotron:nth-of-type(2) {
     border-bottom: .5rem solid #f5c52c; }
     .jumbotron:nth-of-type(2) article {
